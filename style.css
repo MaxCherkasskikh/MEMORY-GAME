@@ -1,0 +1,109 @@
+body {
+  background-image: url(http://p1.pichost.me/i/67/1921953.jpg);
+  background-size: 1280px 900px;
+  background-attachment: fixed;
+  margin-bottom: -8px;
+}
+
+#header_block {
+  height: 500px;
+  width: 1280px;
+  margin-left: -8px;
+  margin-top: -8px;
+  background-image: url(http://wallpapersinsider.com/wp-content/uploads/Abstract-Desktop-Walls.jpg);
+  background-size: 1280px 700px;
+  background-position: 0% 50%;
+}
+
+#header_heading1 {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 50px;
+  font-size: 80px;
+  color: blue;
+}
+
+#header_heading2 {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 325px;
+  font-size: 80px;
+  color: red;
+}
+
+#buttons {
+  margin-left: -8px;
+  margin-right: -8px;
+  border-top: red 4px double;
+  border-bottom: red 4px double;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#history_button {
+  border: red double;
+  color: white;
+  font-size: 40px;
+  margin-top: 22px;
+  margin-left: 550px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#game_button_div {
+  height: 210px;
+  width: 105px;
+  margin-top: 90px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#start_pause_button {
+  border: red double;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#reset_button {
+  border: red double;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 118px;
+}
+
+div#memory_block {
+  background: transparent;
+  width: 900px;
+  height: 675px;
+  padding: 24px;
+  margin-left: 300px;
+}
+
+div#memory_block > div {
+  border: red 1px solid;
+  border-radius: 5%;
+  background: rgba(0, 0, 0, 0.4);
+  width: 144px;
+  height: 161px;
+  float: left;
+  color: white;
+  margin: 1px;
+  padding: 1px;
+  font-size: 130px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 155px;
+  font-family: ZDingbats;
+}
+
+#output {
+  color: red;
+  font-size: 60px;
+  height: 60px;
+  width: 210px;
+  margin-top: 448px;
+  margin-left: 15px;
+  position: absolute;
+  text-shadow: 3.5px 3.5px black;
+}
